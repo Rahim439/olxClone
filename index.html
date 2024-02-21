@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OLX</title>
+    <link rel="stylesheet" href="my.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-xxpZFtJrbZa+OZaWjbZde5R5rzxhBz46N0yW+V8vxOlJf3FV3g/nisCpx/2ZX9fjU6xq/C6a3L6+x2U6RfFKw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="upper-div">
+                    <div class="left-div">
+                        <img src="olx-logo-removebg-preview.png" />
+                    </div>
+                    <div class="center-div">
+                        <i class="fas fa-car-alt" style="font-size: 24px"><a class="a-tag"
+                                href="https://www.google.com/" target="_blank" id="car">MOTORS</a></i>
+                    </div>
+                    <div class="right-div">
+                        <i class="far fa-building" style="font-size: 24px"><a class="a-tag"
+                                href="https://www.google.com/" target="_blank">PROPERTY</a></i>
+                    </div>
+
+                    <div class="login">
+                        <a id="log" href="#">Login</a>
+                    </div>
+                </div>
+                <div class="lower-div">
+                    <div class="vector-logo">
+                        <a href="#">
+                            <img src="olx-logo-vector.svg" />
+                        </a>
+                    </div>
+                    <div class="field-options">
+                        <i id="icon-style" class="fa fa-search" style="font-size: 18px"></i>
+                        <input class="space-in-field" placeholder="City" type="text" list="locations"
+                            name="myLocation" />
+
+                        <datalist id="locations">
+                            <option value="San Francisco">
+                                <i class="fa fa-map-marker"></i> San Francisco
+                            </option>
+                            <option value="New York">
+                                <i class="fa fa-map-marker"></i> New York
+                            </option>
+                            <option value="London">
+                                <i class="fa fa-map-marker"></i> London
+                            </option>
+                            <option value="Paris">
+                                <i class="fa fa-map-marker"></i> Paris
+                            </option>
+                            <option value="fa-angle-left">&#xf104; fa-angle-left</option>
+                        </datalist>
+                    </div>
+                    <div class="search-div">
+                        <a href="#" id="search-icon">
+                            <i class="fa fa-search" style="font-size: 20px"></i>
+                        </a>
+
+                        <input class="space" type="text" placeholder="Find Cars,Phones and more..." />
+                    </div>
+                    <div class="login">
+                        <a id="log" href="#">Login</a>
+                    </div>
+
+                    <div class="sell">
+                        <a href="#">
+                            <i class="fa fa-plus"><span>SELL</span></i>
+                            <img src="sell-border.svg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="categories">
+        <ul class="top-list">
+            <li class="inner-list" id="all">
+                <a href="#"><strong> ALL CATEGORIES</strong><i id="icon" class="fa fa-angle-down"
+                        style="font-size: 30px"></i>
+                </a>
+            </li>
+            <li class="inner-list"><a href="#">Mobile Phones</a></li>
+            <li class="inner-list"><a href="#">Cars</a></li>
+            <li class="inner-list"><a href="#">Houses</a></li>
+            <li id="land" class="inner-list"><a href="#">Land & Plots</a></li>
+            <li id="tv" class="inner-list"><a href="#">TV - Video - Audio</a></li>
+            <li class="inner-list"><a href="#">Tablets</a></li>
+        </ul>
+    </div>
+    <br /><br />
+    <div class="ad"></div>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img id="img" src="cat.jpeg" />
+            </div>
+            <div class="content-div">
+                <div class="two-divs">
+                    <div class="title">
+                        Fluffy cat food 1.2kg pack dog food Creamy Treats and pet products
+                    </div>
+                    <div class="heart-icon">
+                        <i class="fa fa-heart-o"></i>
+                    </div>
+                </div>
+
+                <div class="price">Rs 10000</div>
+                <div class="area">Lahore, Pakistan</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img id="img" src="newBed.jpg" />
+            </div>
+            <div class="content-div">
+                <div class="two-divs">
+                    <div class="title">King Bed Available Premium quality</div>
+                    <div class="heart-icon">
+                        <i class="fa fa-heart-o"></i>
+                    </div>
+                </div>
+
+                <div class="price">Rs 50000</div>
+                <div class="area">Sargodha, Pakistan</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img id="img" src="newPhone.jpg" />
+            </div>
+            <div class="content-div">
+                <div class="two-divs">
+                    <div class="title">Vivo S1 128GB Good condition</div>
+                    <div class="heart-icon">
+                        <i class="fa fa-heart-o"></i>
+                    </div>
+                </div>
+
+                <div class="price">Rs 35000</div>
+                <div class="area">Lahore, Pakistan</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img id="img" src="newHouse.jpg" />
+            </div>
+            <div class="content-div">
+                <div class="two-divs">
+                    <div class="title cut-text">
+                        10 Marla House Sale Brand New with five bedrooms and attach baths
+                    </div>
+                    <div class="heart-icon">
+                        <i class="fa fa-heart-o"></i>
+                    </div>
+                </div>
+
+                <div class="price">Rs 2000000</div>
+                <div class="area">Kasur, Pakistan</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img id="img" src="newLcd.jpg" />
+            </div>
+            <div class="content-div">
+                <div class="two-divs">
+                    <div class="title">HP Brand LCD For sale</div>
+                    <div class="heart-icon">
+                        <i class="fa fa-heart-o"></i>
+                    </div>
+                </div>
+
+                <div class="price">Rs 8000</div>
+                <div class="area">Bahawalpur, Pakistan</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img id="img" src="newNecklace.jpg" />
+            </div>
+            <div class="content-div">
+                <div class="two-divs">
+                    <div class="title">
+                        GOLD necklace 24 Carat for sale excellent condition
+                    </div>
+                    <div class="heart-icon">
+                        <i class="fa fa-heart-o"></i>
+                    </div>
+                </div>
+
+                <div class="price">Rs 110000</div>
+                <div class="area">Gujranwala, Pakistan</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img id="img" src="gucci.jpg" />
+            </div>
+            <div class="content-div">
+                <div class="two-divs">
+                    <div class="title">Gucci Bag excellent condition</div>
+                    <div class="heart-icon">
+                        <i class="fa fa-heart-o"></i>
+                    </div>
+                </div>
+
+                <div class="price">Rs 110000</div>
+                <div class="area">PCSIR Lahore, Pakistan</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img id="img" src="newShoes.jpg" />
+            </div>
+            <div class="content-div">
+                <div class="two-divs">
+                    <div class="title">Leather Shoes for men</div>
+                    <div class="heart-icon">
+                        <i class="fa fa-heart-o"></i>
+                    </div>
+                </div>
+
+                <div class="price">Rs 9500</div>
+                <div class="area">Mall road Lahore, Pakistan</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img id="img" src="newBag.jpg" />
+            </div>
+            <div class="content-div">
+                <div class="two-divs">
+                    <div class="title">Gucci Diana Tote Bag for SALE</div>
+                    <div class="heart-icon">
+                        <i class="fa fa-heart-o"></i>
+                    </div>
+                </div>
+
+                <div class="price">Rs 180000</div>
+                <div class="area">Cantt Lahore, Pakistan</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img id="img" src="newCycle.jpg" />
+            </div>
+            <div class="content-div">
+                <div class="two-divs">
+                    <div class="title">Land rover bicycle for kids</div>
+                    <div class="heart-icon">
+                        <i class="fa fa-heart-o"></i>
+                    </div>
+                </div>
+
+                <div class="price">Rs 35000</div>
+                <div class="area">Model Town Lahore, Pakistan</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img id="img" src="newLaptop.jpg" />
+            </div>
+            <div class="content-div">
+                <div class="two-divs">
+                    <div class="title">
+                        DELL G5-5505/AMD Ryzen 7/16 GB RAM Excellent condition
+                    </div>
+                    <div class="heart-icon">
+                        <i class="fa fa-heart-o"></i>
+                    </div>
+                </div>
+
+                <div class="price">Rs 100000</div>
+                <div class="area">DHA Phase 6 Lahore, Pakistan</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image">
+                <img id="img" src="newSofa.jpg" />
+            </div>
+            <div class="content-div">
+                <div class="two-divs">
+                    <div class="title">2 seater Sofa set available for sale</div>
+                    <div class="heart-icon">
+                        <i class="fa fa-heart-o"></i>
+                    </div>
+                </div>
+
+                <div class="price">Rs 70000</div>
+                <div class="area">Johar Town Lahore, Pakistan</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="sell">
+            <a href="#">
+                <i class="fa fa-plus"><span>SELL</span></i>
+                <img src="sell-border.svg" />
+            </a>
+        </div>
+        <section class="lastDiv">
+            <div class="list_items">
+
+                <div class="itemms">
+                    <h5>Popular Categories</h5>
+                    <ul>
+                        <li><a href="#">Cars</a></li>
+                        <li><a href="#">Flats for rent</a></li>
+                        <li><a href="#">Mobile Phones</a></li>
+                        <li><a href="#">Jobs</a></li>
+                    </ul>
+                </div>
+
+                <div class="itemms">
+                    <h5>Trending Searches</h5>
+                    <ul>
+                        <li><a href="#">Bikes</a></li>
+                        <li><a href="#">Watches</a></li>
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Dogs</a></li>
+                    </ul>
+                </div>
+
+                <div class="itemms">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">About Dubizzle Group</a></li>
+                        <li><a href="#">OLX Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">OLX for Businesses</a></li>
+                    </ul>
+                </div>
+
+                <div class="itemms">
+                    <h5>OLX</h5>
+                    <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+            <div class="follow_items">
+                <h2>Follow us on</h2>
+                <div class="logos">
+
+                    <div>
+                        <a href="https://www.facebook.com">
+                            <img src="fb.svg" alt="Facebook">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com">
+                            <img src="insta.svg" alt="Instagram">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com">
+                            <img src="youtube.svg" alt="YouTube">
+                        </a>
+                    </div>
+
+
+
+                </div>
+
+                <div class="download">
+                    <div>
+                        <a href="https://play.google.com">
+                            <img src="gp.svg" alt="Google Play">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.apple.com/app-store/">
+                            <img src="apple.svg" alt="Apple App Store">
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <div class="copyright">
+            <p>Free Classifieds in Pakistan . © 2006-2023 OLX</p>
+        </div>
+
+
+
+    </footer>
+</body>
+
+</html>
